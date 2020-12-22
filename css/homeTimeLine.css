@@ -3231,18 +3231,12 @@ box-shadow: 0 5px 16px 0 rgba(var(--brand-primary-rgb), .5)
 
 .totalTimeLine {
 	padding: 250px 0 40px;
-	/* background: red; */
-	/* position: relative; */
 	margin-top: -250px;
-	/* display: flex; */
 	overflow: hidden;
-	/* overflow-x: scroll;  */
 }
 .his-inner {
 	float: left;
-	/* width: 14%; */
 	height: 450px;
-	/* margin-top: -225px; */
 	text-align: center;
 	position: relative;
 	margin: -225px -20px 0;
@@ -3285,19 +3279,6 @@ box-shadow: 0 5px 16px 0 rgba(var(--brand-primary-rgb), .5)
 	bottom: 55%;
 }
 
-
-/* .text-wrap h4 {
-	color: #000 !important;
-	font-size: 20px;
-	font-weight: 700;
-	font-family: 'OpenSans-Bold';
-}
-.text-wrap p {
-	font-size: 15px;
-	line-height: 21px;
-	padding: 5px 0px;
-} */
-
 .text-wrap h4 {
 	color: #000 !important;
 	font-size: 28px;
@@ -3309,8 +3290,6 @@ box-shadow: 0 5px 16px 0 rgba(var(--brand-primary-rgb), .5)
 	line-height: 30px;
 	padding: 10px 5px;
 }
-
-
 
 .his-inner:after {
 	content: "";
@@ -3364,64 +3343,9 @@ box-shadow: 0 5px 16px 0 rgba(var(--brand-primary-rgb), .5)
 	.text-wrap p {
 		font-size: 21px;
 		line-height: 25px;
-		/* padding: 5px 0px; */
 	}
 }
 @media (max-width:991px) {
-
-/*.innerhistory {
-	height: auto;
-	background: none;
-	margin-top: 0px;
-	padding: 0;
-}
-.text-wrap p {
-	height: 45px;
-	overflow: hidden;
-}
-.innerhistory:before, .innerhistory:after, .his-inner:after {
-	display: none;
-}
-.his-inner {
-	width: 100% !important;
-	margin-top: 30px;
-	height: auto;
-}
-.his-inner:nth-child(odd) i, .his-inner i {
-	float: left;
-	position: relative;
-	right: auto;
-	margin: 0;
-}
-.his-inner:nth-child(odd) .text-wrap, .text-wrap {
-	position: relative;
-	top: 17px;
-	left: 0;
-	padding-left: 110px;
-	text-align: left;
-}
-.text-wrap {
-	margin-top: 20px;
-}
-.text-wrap h4 {
-	margin-top: -70px;
-}
-.his-inner:nth-child(odd) .text-wrap h4 {
-	margin-top: 0px;
-}
-.his-inner:nth-child(odd) .text-wrap {
-	margin-top: 0px;
-}
-.inner-ab {
-	padding: 30px 15px;
-}
-.text-p {
-	padding: 30px 0px 0px 0px;
-}
-.fontsig {
-	font-size: 50px;
-}*/
-
 	.totalTimeLine {
 		overflow-x: scroll;
 		padding-bottom: 50px;
@@ -3437,7 +3361,6 @@ box-shadow: 0 5px 16px 0 rgba(var(--brand-primary-rgb), .5)
 	.totalTimeLine::-webkit-scrollbar-track {
 		box-shadow: inset 0 0 5px rgb(73, 172, 16);
 		border-radius: 10px;
-		/* margin: 0 25px; */
 	}
 
 	/* Handle of the scrollBar */
